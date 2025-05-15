@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body, html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #8575F0;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  header .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #f0f0f0;
+  }
+  section {
+    padding: 80px 40px;
+    min-height: 100vh;
+    transition: background-color 0.3s;
+  }
+  section:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #8574f0;
+  }
+  
+  #home {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 100px 40px;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-size: ;
+  }
+  
+  #home p {
+    font-size: 30px;
+  }
+
+  .p {
+    margin-top: 4in;
+    text-align: justify; 
+  }
+  
+
+  .intro {
+    flex: 1;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    
+  }
+  
+  .profile-pic {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+  }
+  
+  .profile-pic img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #8575F0;
+    margin-right: 5rem;
+  }
+  
+  .profile-pic img {
+    width: 600px;
+    height: 600px;
+    border-radius: 2%;
+    border: 3px solid #8575F0;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  
+  
+  section:hover {
+    background-color: #e0e0e0;
+}
